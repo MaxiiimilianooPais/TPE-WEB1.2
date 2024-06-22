@@ -1,0 +1,381 @@
+/* Estilos generales */
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    background-color: rgba(212, 210, 203, 0.5);
+}
+
+div.btn_menu {
+    margin-left: 80%;
+}
+
+ul.navigation {
+    display: none;
+}
+
+ul.navigation.show {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 100%;
+    gap: 2rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    background-color: #e7e7d2;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(102, 95, 68, 0.5);
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+/* Enlaces de la lista de navegación */
+ul.navigation li a {
+    color: black;
+    font-size: medium;
+}
+
+/* Logo */
+div.logo {
+    height: 20px;
+}
+
+img.logo {
+    height: 70px;
+}
+
+/* Banner */
+img.banner {
+    width: 100%;
+}
+
+/* Contenedor principal del main */
+div.contenedor {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Sección catálogo */
+section.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* Destacados */
+h1.Featured {
+    font-size: larger;
+    font-family: cursive;
+    padding: 50px 0 0 30px;
+    height: 110px;
+    background-color: rgba(199, 197, 195, 0.89);
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Tarjetas de productos */
+article.producto, 
+img.imgproduct {
+    border-radius: 10px;
+}
+
+img.imgproduct {
+    height: 80px;
+    width: 70px;
+}
+
+article.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 280px;
+    background-color: rgba(193, 202, 191, 0.712);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Link de contacto */
+div.linkContacto {
+    text-align: center;
+    padding-top: 10%;
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgba(253, 112, 4, 0.845);
+}
+
+div.linkContacto:hover {
+    background-color: rgba(4, 236, 0, 0.806);
+}
+
+/* Aside */
+aside {
+    background-color: rgba(161, 161, 209, 0.281);
+    border-radius: 10px;
+    width: 80%;
+    padding: 10%;
+}
+
+.tituloaside {
+    color: rgb(255, 106, 0);
+    font-size: larger;
+}
+
+li.listaofertas {
+    padding-top: 20px;
+    color: brown;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(212, 210, 203, 0.5);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+/* Contacto */
+.mainContacto, .formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+.mainContacto {
+    height: 100%;
+}
+
+.formulario {
+    gap: 2rem;
+    margin: 10%;
+}
+
+.consultanos {
+    background-color: rgba(235, 169, 14, 0.724);
+    width: 100%;
+}
+
+/* Contacto contenedores */
+.contenedorizq, .contenedorder {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.contenedorder {
+    width: 120px;
+}
+
+.areaconsulta {
+    height: 110px;
+    width: 200px;
+    border-style: none;
+    margin-bottom: 15px;
+}
+
+/* Captcha */
+.captcha-contenedor {
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.captcha-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.background-captcha {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.captcha {
+    position: absolute;
+    color: black;
+    font-size: 19px;
+    padding: 9%;
+    padding-left: 55px;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Botones captcha */
+div.botonesCaptcha {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+/* Imagen negocio */
+.imagenNegocio {
+    width: 100%;
+}
+
+/* Nosotros */
+.mainNosotros {
+    width: 80%;
+    padding: 10%;
+}
+
+/* Tabla nosotros */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Media queries */
+@media screen and (min-width: 660px) {
+    .btn_menu {
+        display: none;
+    }
+
+    ul.navigation {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+    li.navigationbuttons {
+        height: 40px;
+        margin-top: 27px;
+        margin-right: 200px;
+    }
+
+    ul.navigation li a {
+        font-size: x-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    li.navigationbuttons:hover {
+        background-color: rgba(169, 165, 165, 0.968);
+        border-radius: 10px;
+    }
+
+    div.contenedorInicio {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .cerrar-menu {
+        display: none;
+    }
+
+    h1.Featured {
+        height: 60px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    img.imgproduct {
+        height: 180px;
+        width: 170px;
+    }
+
+    section.catalogo {
+        width: auto;
+    }
+
+    article.producto {
+        height: 50%;
+        width: 220px;
+        margin: 40px;
+    }
+
+    button.botoncarrito {
+        height: 47px;
+        width: 220px;
+        border-radius: 15px;
+        background-color: rgba(253, 112, 4, 0.845);
+        border-style: none;
+    }
+
+    aside {
+        height: 100%;
+        width: 500px;
+    }
+
+    footer {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .captcha {
+        padding: 3%;
+    }
+
+    .mainContacto {
+        flex-direction: row;
+        gap: 13rem;
+    }
+
+    .imagenNegocio {
+        margin: 0;
+    }
+}

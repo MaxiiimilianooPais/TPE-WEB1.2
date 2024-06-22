@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nosotros</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo" src="/img/tienda-canrock-logo-1588778010.jpg" alt="logo">
+        </div>
+
+        <div class="btn_menu">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+
+        </div>
+
+        <div class="menu">
+            <ul class="navigation">
+                <button class="cerrar-menu" id="cerrar">Cerrar</button>
+                <li class="navigationbuttons"> <a href="/index.html">Inicio</a></li>
+                <li class="navigationbuttons"> <a href="/html/contacto.html">Contactanos</a> </li>
+                <li class="navigationbuttons"> <a href="/html/nosotros.html">Nosotros</a> </li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <main class="mainNosotros">
+        <div>
+            <p>Bienvenido a Vital Can, tu tienda de confianza para todas las necesidades de tus adorables
+                mascotas. Fundada en 2010, nuestra misión ha sido siempre ofrecer productos de alta calidad y servicios
+                excepcionales para asegurar el bienestar y la felicidad de tus compañeros peludos.
+
+                En Vital Can , nos apasiona todo lo relacionado con los animales. Desde el primer día, hemos
+                trabajado arduamente para construir una comunidad donde los dueños de mascotas puedan encontrar todo lo
+                necesario para cuidar y consentir a sus amigos animales. Nuestro equipo está compuesto por expertos en
+                el cuidado de mascotas que están siempre dispuestos a ayudarte y asesorarte.
+            </p>
+
+
+            <p>En Vital Can, valoramos la claridad y transparencia en todas nuestras operaciones. Nos aseguramos
+                de que todos nuestros precios sean justos y estén claramente etiquetados para que sepas exactamente lo
+                que estás pagando. Además, mantenemos una actualización constante de nuestro inventario para que siempre
+                tengas información precisa sobre la disponibilidad de nuestros productos. Creemos que la confianza se
+                construye a través de la honestidad, por eso, estamos comprometidos a proporcionarte una experiencia de
+                compra sin sorpresas y completamente confiable</p>
+
+        </div>
+
+        <div class="tablaStock">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad en Stock</th>
+                        <th>Opciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaProductos">
+                </tbody>
+            </table>
+        </div>
+        <P id="estadoStock">Ingrese los datos del Producto</P>
+        <form action="" class="formUsuario">
+            
+            <p> Producto <input type="text" id="txtProducto"></p>
+            <p> Precio <input type="number" id="txtPrecio"></p>
+            <p> Stock <input type="number" id="txtStock"></p>
+
+            <p> <input type="button" id="enviar" value="enviar"></p>
+            <p> <input type="button" id="enviarTres" value="Enviar x 3 "></p>
+
+        </form>
+
+
+    </main>
+    <footer>
+        <h4>Contáctanos</h4>
+        <p>Teléfono: (123) 456-7890</p>
+        <p>Correo electrónico: info@vital_can.com</p>
+        <p>Dirección: 123 Saenz Peña, Tandil, Argentina</p>
+        <p>&copy; 2024 VITAL-CAN SA. Todos los derechos reservados.</p>
+    </footer>
+    <script type="text/javascript" src="/js/stock.js"></script>
+    <script src="https://kit.fontawesome.com/db9d899465.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/menu.js"></script>
+</body>
+
+</body>
+
+</html>
