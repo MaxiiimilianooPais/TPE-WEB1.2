@@ -170,7 +170,7 @@ footer {
 .mainContacto, .formulario {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     margin: 0;
 }
 
@@ -247,6 +247,7 @@ div.botonesCaptcha {
 /* Imagen negocio */
 .imagenNegocio {
     width: 100%;
+    margin: 10%;
 }
 
 /* Nosotros */

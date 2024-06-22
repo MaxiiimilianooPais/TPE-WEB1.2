@@ -125,7 +125,7 @@ function llenarFormulario(tr, id) {
     document.querySelector("#txtStock").value = tr.querySelector(".cantidad").innerText;
     // Cambio los el contenido del boton enviar y el contenido del titulo del form
     //para que indique que se esta actualizando
-    document.querySelector("#estadoStock").innerHTML = 'Usted esta actualizando el poducto seleccionado';
+    document.querySelector("#estadoStock").innerHTML = 'Usted esta actualizando el producto seleccionado';
     document.querySelector("#enviar").value = "Actualizar";
 
     //editando pasa a ser verdadera, para que entre en la funcion enviarDatos.

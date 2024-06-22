@@ -32,7 +32,7 @@ function validarCaptcha() {
     document.querySelector('.status-captcha').innerHTML = 'Captcha válido, mensaje enviado!';
   } else {
     document.querySelector('.status-captcha').innerHTML = 'Captcha inválido. Inténtelo de nuevo.';
-    recargarCaptcha();
+    mostrarCaptcha();
   }
 }
 
